@@ -1,0 +1,49 @@
+body,h1,p,li,ul,h2{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:arial,sans-serif;
+    line-height: 1.6;
+}
+header{
+    background-color:rgb(15, 15, 16);
+    color:blanchedalmond;
+    text-align: center;
+    padding:1rem;
+}
+main{
+    padding:1rem;
+    color:bisque;
+}
+.profile{
+    display:flex;
+    align-items:center;
+}
+.photo{
+    flex:1;
+    padding:0 2rem;
+    
+
+}
+.photo img{
+    border-radius: 50%;
+    box-shadow: inset;
+    border:20px;
+    max-width:50%;
+    max-height: 50%;
+}
+.bio{
+    flex:2;
+}
+footer{
+    background-color:rgb(15, 15, 16);
+    color:rgb(237, 230, 221);
+    text-align: center;
+    padding:1rem;
+}
+@media screen and(max-width:768px){
+    .profile{
+        flex-direction: column;
+    }
+}
